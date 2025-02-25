@@ -10,7 +10,7 @@
     "seed:example": "node ./scripts/seed.js",
     "start": "strapi start",
     "strapi": "strapi",
-    "postinstall": "pnpm approve-builds"
+    "postinstall": "pnpm approve-builds && pnpm rebuild sharp"
   },
   "dependencies": {
     "@strapi/plugin-cloud": "5.9.0",
@@ -25,6 +25,7 @@
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.0.0",
+    "sharp": "^0.33.5",
     "styled-components": "^6.0.0"
   },
   "devDependencies": {
