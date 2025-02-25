@@ -9,7 +9,8 @@
     "dev": "strapi develop",
     "seed:example": "node ./scripts/seed.js",
     "start": "strapi start",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "postinstall": "pnpm approve-builds"
   },
   "dependencies": {
     "@strapi/plugin-cloud": "5.9.0",
