@@ -3,8 +3,8 @@ services:
     runtime: node
     name: strapi
     plan: free
-    buildCommand: pnpm install && pnpm build
-    startCommand: rsync -a public/ /data/public/ && pnpm start
+    buildCommand: npm install && npm build
+    startCommand: rsync -a public/ /data/public/ && npm start
     healthCheckPath: /_health
     autoDeploy: false
     disk:
