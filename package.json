@@ -26,7 +26,6 @@
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.0.0",
     "sharp": "^0.33.5",
-    "strapi-plugin-vercel-deploy": "^1.4.0",
     "styled-components": "^6.0.0"
   },
   "devDependencies": {
